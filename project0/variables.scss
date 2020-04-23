@@ -3,10 +3,10 @@ $my_blue: blue;
 
 ul {
     font-size: medium;
-    color: my_red
+    color: $my_red;
 }
 
 ol {
     font-size: medium;
-    color: my_blue;
+    color: $my_blue;
 }
