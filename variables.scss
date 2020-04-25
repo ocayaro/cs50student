@@ -1,12 +1,22 @@
 $my_red: red;
 $my_blue: blue;
+$my_green: green;
 
 ul {
     font-size: medium;
     color: $my_red;
 }
 
-ol {
-    font-size: medium;
-    color: $my_blue;
+p {
+    text-align: justify;
+    color: blue;
+    text-emphasis-color: $my_red;
 }
+
+
+
+ol li {
+    font-size: medium;
+    color: $my_green;
+}
+

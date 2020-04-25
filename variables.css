@@ -3,9 +3,15 @@ ul {
   color: red;
 }
 
-ol {
-  font-size: medium;
+p {
+  text-align: justify;
   color: blue;
+  text-emphasis-color: red;
+}
+
+ol li {
+  font-size: medium;
+  color: green;
 }
 
 /*# sourceMappingURL=variables.css.map */
