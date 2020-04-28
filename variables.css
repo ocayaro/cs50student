@@ -15,7 +15,7 @@ ol li {
 }
 
 div p {
-  color: darkslategray;
+  color: #1b1111;
 }
 div ol {
   color: darkgreen;
@@ -23,5 +23,24 @@ div ol {
 div ul {
   font-size: small;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: whitesmoke;
+}
+
+.mainbody, .e_mainbody {
+  padding-top: 60px;
+  /* 60px to make the container go all the way to the bottom of the topbar */
+  padding-left: 40px;
+  /* left and right padding to make the appearance a little more pleasing */
+  padding-right: 40px;
+}
+
+/* the other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site */
 
 /*# sourceMappingURL=variables.css.map */
