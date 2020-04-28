@@ -14,4 +14,14 @@ ol li {
   color: green;
 }
 
+div p {
+  color: darkslategray;
+}
+div ol {
+  color: darkgreen;
+}
+div ul {
+  font-size: small;
+}
+
 /*# sourceMappingURL=variables.css.map */

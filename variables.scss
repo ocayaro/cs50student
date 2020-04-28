@@ -13,10 +13,19 @@ p {
     text-emphasis-color: $my_red;
 }
 
-
-
 ol li {
     font-size: medium;
     color: $my_green;
 }
 
+div{
+    p{
+        color: darkslategray;
+    }
+    ol{
+        color:darkgreen;
+    }
+    ul{
+        font-size: small;
+    }
+}
