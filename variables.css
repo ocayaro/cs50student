@@ -17,11 +17,13 @@ p {
   text-emphasis-color: red;
 }
 
+/* for lists that are descendants of ordered list use medium size and green color */
 ol li {
   font-size: medium;
   color: green;
 }
 
+/* The following code shows nested Sass code i.e. p, ol and ul within a div */
 div p {
   color: #1b1111;
 }
@@ -48,6 +50,7 @@ div ul {
   grid-template-columns: 200px auto auto;
 }
 
+/* For any divs that are immediate children of the class, use a whitesmoke background */
 .container > div {
   background-color: whitesmoke;
 }
@@ -60,7 +63,31 @@ div ul {
   padding-right: 40px;
 }
 
-/* the other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site. Let's try inheritance here i.e. class e_mainbody inherits 
+/* The other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site. Let's try inheritance here i.e. class e_mainbody inherits 
 from class mainbody */
+/* Using the #id selector for any table called "mytable" */
+#mytable {
+  text-align: center;
+}
+
+#topic {
+  text-align: left;
+}
+
+#caption {
+  font-size: small;
+  font-weight: bold;
+}
+
+#quote {
+  font-size: small;
+  font-style: italic;
+}
+
+@media (max-width: 400px) {
+  head {
+    color: rgba(17, 0, 255, 0.507);
+  }
+}
 
 /*# sourceMappingURL=variables.css.map */

@@ -2,7 +2,7 @@
 About this site
 ---------------
 
-This document is submitted by Dr. Richard O. Ocaya as his rendition of Project 0 for Harvard University's CS50 Python and Javascript programming (EDX50) course. We are currently in the ravages of global COVID-19 pandemic. 
+This document is submitted by Dr. Richard O. Ocaya as his rendition of Project 0 for Harvard University's CS50 Python and Javascript programming (EDX50) course. We are currently in the ravages of global COVID-19 pandemic, and I decided to make a better use of the time. 
 
 Site contents
 -------------
@@ -18,6 +18,12 @@ There are four interconnected .html pages (index, electronics, solidstate and co
 - images on every page
 - the .class selector is used several times, including with inheritance
 - a mobile-responsive @media query is also implemented for smaller (mobile) displays
+- OTHER things that I have learnt: 
+	-- commenting in html (<!>) and in SCSS (/* */)
+	-- I have also heavily commented the SCSS file to point out the aspects
+- I have also tried my hand at creating a form for user input for feedback about the site
+
+I hope that you will like the site.
 
 Dr. R.O. Ocaya
 April 2020
