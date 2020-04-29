@@ -18,10 +18,11 @@ There are four interconnected .html pages (index, electronics, solidstate and co
 - images on every page
 - the .class selector is used several times, including with inheritance
 - a mobile-responsive @media query is also implemented for smaller (mobile) displays
-- OTHER things that I have learnt: 
-	-- commenting in html (<!>) and in SCSS (/* */)
-	-- I have also heavily commented the SCSS file to point out the aspects
-- I have also tried my hand at creating a form for user input for feedback about the site
+
+Other achievements
+------------------
+- Commenting in html (<!>) and in SCSS (/* */) for blocks and inline (//). The SCSS file is heavily commented as a guide and for future reference
+- Use of forms for feedback on the website 
 
 I hope that you will like the site.
 
