@@ -1,3 +1,11 @@
+/* 
+
+This Sass program was written as part of Project 0.
+
+(c) Dr. Richard O. Ocaya
+April 2020.
+
+*/
 ul {
   font-size: medium;
   color: red;
@@ -24,9 +32,20 @@ div ul {
   font-size: small;
 }
 
+/*
+.container{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+*/
+/* this code does something similar to the display:flex, but I am trying to meet Project 0 requirements */
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 200px auto auto;
 }
 
 .container > div {
@@ -41,6 +60,7 @@ div ul {
   padding-right: 40px;
 }
 
-/* the other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site */
+/* the other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site. Let's try inheritance here i.e. class e_mainbody inherits 
+from class mainbody */
 
 /*# sourceMappingURL=variables.css.map */

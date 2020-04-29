@@ -1,3 +1,11 @@
+/* 
+
+This Sass program was written as part of Project 0.
+
+(c) Dr. Richard O. Ocaya
+April 2020.
+
+*/
 $my_red: red;
 $my_blue: blue;
 $my_green: green;
@@ -30,10 +38,22 @@ div{
     }
 }
 
+/*
 .container{
  display: flex;
  flex-wrap: wrap;
 }
+
+*/
+
+/* this code does something similar to the display:flex, but I am trying to meet Project 0 requirements */
+.container{
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px auto auto;
+   }
 
 .container > div{
     background-color: whitesmoke;
@@ -44,7 +64,8 @@ div{
     padding-left: 40px; /* left and right padding to make the appearance a little more pleasing */padding-right: 40px;
 }
 
-/* the other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site */
+/* the other pages inherit the padding properties from the mainbody class. I am doing this so that the appearance is uniform on every page in the site. Let's try inheritance here i.e. class e_mainbody inherits 
+from class mainbody */
 .e_mainbody{       
    @extend .mainbody;
-}   
+}     
